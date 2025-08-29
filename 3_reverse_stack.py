@@ -20,5 +20,5 @@ class reversed_file:
             file.write(reversed_content)
 
 
-reverse = reversed_file('original.txt', 'reverse.txt')
+reverse = reversed_file('3.1_original.txt', '3.2_reverse.txt')
 reverse.reverse_file_content()
